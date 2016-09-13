@@ -89,7 +89,7 @@
 
 
 - (NSString *)classInsertTextViewContentForH{
-    NSMutableString *result = [NSMutableString stringWithFormat:@""];
+    NSMutableString *result = [NSMutableString stringWithFormat:@"\n\n"];
     for (NSString *key in self.propertyClassDic) {
         ESClassInfo *classInfo = self.propertyClassDic[key];
         [result appendFormat:@"%@\n\n",classInfo.classContentForH];
